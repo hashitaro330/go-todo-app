@@ -1,0 +1,1338 @@
+2022/12/29 17:52:03 main.go:15: test
+2022/12/30 01:06:32 todos.go:65: no such column: id
+2022/12/30 01:08:04 todos.go:65: no such column: id
+2022/12/30 20:19:17 server.go:3230: http: panic serving [::1]:51177: open app/views/template/layout.html: no such file or directory
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1007ee900, 0x14000094150})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x10083b3a8?, 0x140000b8000}, {0x1007cadc0, 0x1008387e0}, {0x1400013ba08?, 0x2, 0x1400013ba18?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:16 +0xd0
+todo-app/app/controllers.top({0x10083b3a8?, 0x140000b8000?}, 0x1260acf3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:10 +0x70
+net/http.HandlerFunc.ServeHTTP(0x1400013bad8?, {0x10083b3a8?, 0x140000b8000?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x10083b3a8, 0x140000b8000}, 0x1400009c000)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000094030?}, {0x10083b3a8, 0x140000b8000}, 0x1400009c000)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x14000139400, {0x10083b860, 0x1400011d500})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/30 20:19:18 server.go:3230: http: panic serving [::1]:51178: open app/views/template/layout.html: no such file or directory
+goroutine 21 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1007ee900, 0x14000094240})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x10083b3a8?, 0x140000b80e0}, {0x1007cadc0, 0x1008387e0}, {0x14000061a08?, 0x2, 0x14000061a18?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:16 +0xd0
+todo-app/app/controllers.top({0x10083b3a8?, 0x140000b80e0?}, 0x1260ace3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:10 +0x70
+net/http.HandlerFunc.ServeHTTP(0x14000061ad8?, {0x10083b3a8?, 0x140000b80e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x10083b3a8, 0x140000b80e0}, 0x14000190100)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x1400011d650?}, {0x10083b3a8, 0x140000b80e0}, 0x14000190100)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140001394a0, {0x10083b860, 0x1400011d500})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/30 20:19:18 server.go:3230: http: panic serving [::1]:51183: open app/views/template/layout.html: no such file or directory
+goroutine 50 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1007ee900, 0x14000094360})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x10083b3a8?, 0x140000b81c0}, {0x1007cadc0, 0x1008387e0}, {0x1400021aa08?, 0x2, 0x1400021aa18?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:16 +0xd0
+todo-app/app/controllers.top({0x10083b3a8?, 0x140000b81c0?}, 0x1260acf3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:10 +0x70
+net/http.HandlerFunc.ServeHTTP(0x1400021aad8?, {0x10083b3a8?, 0x140000b81c0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x10083b3a8, 0x140000b81c0}, 0x14000224000)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000204090?}, {0x10083b3a8, 0x140000b81c0}, 0x14000224000)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x14000208000, {0x10083b860, 0x1400011d500})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/30 20:19:18 server.go:3230: http: panic serving [::1]:51184: open app/views/template/layout.html: no such file or directory
+goroutine 37 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1007ee900, 0x1400011d740})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x10083b3a8?, 0x140001a2000}, {0x1007cadc0, 0x1008387e0}, {0x1400021aa08?, 0x2, 0x1400021aa18?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:16 +0xd0
+todo-app/app/controllers.top({0x10083b3a8?, 0x140001a2000?}, 0x1260acf3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:10 +0x70
+net/http.HandlerFunc.ServeHTTP(0x1400021aad8?, {0x10083b3a8?, 0x140001a2000?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x10083b3a8, 0x140001a2000}, 0x1400009c400)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000094420?}, {0x10083b3a8, 0x140001a2000}, 0x1400009c400)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140000f6000, {0x10083b860, 0x1400011d500})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/30 20:19:23 server.go:3230: http: panic serving [::1]:51205: open app/views/template/layout.html: no such file or directory
+goroutine 23 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1007ee900, 0x140002041b0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x10083b3a8?, 0x1400023a000}, {0x1007cadc0, 0x1008387e0}, {0x14000247a08?, 0x2, 0x1400021ba18?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:16 +0xd0
+todo-app/app/controllers.top({0x10083b3a8?, 0x1400023a000?}, 0x1260acf3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:10 +0x70
+net/http.HandlerFunc.ServeHTTP(0x1400021bad8?, {0x10083b3a8?, 0x1400023a000?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x10083b3a8, 0x1400023a000}, 0x14000224100)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x140002040f0?}, {0x10083b3a8, 0x1400023a000}, 0x14000224100)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x14000139540, {0x10083b860, 0x1400011d500})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/30 20:19:53 server.go:3230: http: panic serving [::1]:51206: open app/views/template/layout.html: no such file or directory
+goroutine 24 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1007ee900, 0x140002042a0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x10083b3a8?, 0x1400023a0e0}, {0x1007cadc0, 0x1008387e0}, {0x1400021aa08?, 0x2, 0x1400021aa18?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:16 +0xd0
+todo-app/app/controllers.top({0x10083b3a8?, 0x1400023a0e0?}, 0x1260ace3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:10 +0x70
+net/http.HandlerFunc.ServeHTTP(0x1400021aad8?, {0x10083b3a8?, 0x1400023a0e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x10083b3a8, 0x1400023a0e0}, 0x14000190300)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x1400011d860?}, {0x10083b3a8, 0x1400023a0e0}, 0x14000190300)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140001395e0, {0x10083b860, 0x1400011d500})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/30 20:19:53 server.go:3230: http: panic serving [::1]:51328: open app/views/template/layout.html: no such file or directory
+goroutine 53 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1007ee900, 0x14000204480})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x10083b3a8?, 0x1400023a1c0}, {0x1007cadc0, 0x1008387e0}, {0x1400021aa08?, 0x2, 0x1400021aa18?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:16 +0xd0
+todo-app/app/controllers.top({0x10083b3a8?, 0x1400023a1c0?}, 0x1260ace3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:10 +0x70
+net/http.HandlerFunc.ServeHTTP(0x1400021aad8?, {0x10083b3a8?, 0x1400023a1c0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x10083b3a8, 0x1400023a1c0}, 0x14000224400)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x140002043c0?}, {0x10083b3a8, 0x1400023a1c0}, 0x14000224400)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140002080a0, {0x10083b860, 0x1400011d500})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/30 20:20:53 server.go:3230: http: panic serving [::1]:51573: open app/views/template/layout.html: no such file or directory
+goroutine 38 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1007ee900, 0x140002045a0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x10083b3a8?, 0x1400023a2a0}, {0x1007cadc0, 0x1008387e0}, {0x1400021aa08?, 0x2, 0x1400021aa18?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:16 +0xd0
+todo-app/app/controllers.top({0x10083b3a8?, 0x1400023a2a0?}, 0x1260ace3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:10 +0x70
+net/http.HandlerFunc.ServeHTTP(0x1400021aad8?, {0x10083b3a8?, 0x1400023a2a0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x10083b3a8, 0x1400023a2a0}, 0x14000224600)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x140002044e0?}, {0x10083b3a8, 0x1400023a2a0}, 0x14000224600)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140000f60a0, {0x10083b860, 0x1400011d500})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/30 22:17:32 main.go:19: sql: expected 5 destination arguments in Scan, not 4
+2022/12/30 23:55:10 server.go:3230: http: panic serving [::1]:55680: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x103412fc0, 0x14000095f50})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x10345ffa8?, 0x140000ba2a0}, {0x0, 0x0}, {0x1400014d9f8?, 0x3, 0x800?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:18 +0xd0
+todo-app/app/controllers.index({0x10345ffa8, 0x140000ba2a0}, 0x10acd8f3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:23 +0xb8
+net/http.HandlerFunc.ServeHTTP(0x1400014dad8?, {0x10345ffa8?, 0x140000ba2a0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x10345ffa8, 0x140000ba2a0}, 0x1400009c400)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000094030?}, {0x10345ffa8, 0x140000ba2a0}, 0x1400009c400)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x14000139400, {0x103460460, 0x1400011d530})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/30 23:55:10 server.go:3230: http: panic serving [::1]:55681: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 21 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x103412fc0, 0x14000209ef0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x10345ffa8?, 0x140000ba380}, {0x0, 0x0}, {0x1400013b9f8?, 0x3, 0x800?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:18 +0xd0
+todo-app/app/controllers.index({0x10345ffa8, 0x140000ba380}, 0x10acd8e3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:23 +0xb8
+net/http.HandlerFunc.ServeHTTP(0x14000061ad8?, {0x10345ffa8?, 0x140000ba380?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x10345ffa8, 0x140000ba380}, 0x1400018a100)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x1400011d680?}, {0x10345ffa8, 0x140000ba380}, 0x1400018a100)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140001394a0, {0x103460460, 0x1400011d530})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/30 23:55:10 server.go:3230: http: panic serving [::1]:55682: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 60 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x103412fc0, 0x1400027e510})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x10345ffa8?, 0x14000248460}, {0x0, 0x0}, {0x1400013b9f8?, 0x3, 0x800?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:18 +0xd0
+todo-app/app/controllers.index({0x10345ffa8, 0x14000248460}, 0x10acd8e3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:23 +0xb8
+net/http.HandlerFunc.ServeHTTP(0x140002a4ad8?, {0x10345ffa8?, 0x14000248460?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x10345ffa8, 0x14000248460}, 0x14000240300)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000209fb0?}, {0x10345ffa8, 0x14000248460}, 0x14000240300)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x1400022c320, {0x103460460, 0x1400011d530})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/30 23:55:11 server.go:3230: http: panic serving [::1]:55683: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 63 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x103412fc0, 0x1400027eb10})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x10345ffa8?, 0x14000248540}, {0x0, 0x0}, {0x1400013b9f8?, 0x3, 0x800?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:18 +0xd0
+todo-app/app/controllers.index({0x10345ffa8, 0x14000248540}, 0x10acd8e3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:23 +0xb8
+net/http.HandlerFunc.ServeHTTP(0x140002a4ad8?, {0x10345ffa8?, 0x14000248540?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x10345ffa8, 0x14000248540}, 0x14000240400)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x1400027e5d0?}, {0x10345ffa8, 0x14000248540}, 0x14000240400)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x1400022c3c0, {0x103460460, 0x1400011d530})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/30 23:55:16 server.go:3230: http: panic serving [::1]:55684: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 30 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x103412fc0, 0x140000fe4e0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x10345ffa8?, 0x14000248620}, {0x0, 0x0}, {0x1400013b9f8?, 0x3, 0x800?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:18 +0xd0
+todo-app/app/controllers.index({0x10345ffa8, 0x14000248620}, 0x10acd8f3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:23 +0xb8
+net/http.HandlerFunc.ServeHTTP(0x140002a0ad8?, {0x10345ffa8?, 0x14000248620?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x10345ffa8, 0x14000248620}, 0x1400018a600)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x140001a77a0?}, {0x10345ffa8, 0x14000248620}, 0x1400018a600)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x14000139900, {0x103460460, 0x1400011d530})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/30 23:55:16 server.go:3230: http: panic serving [::1]:55685: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 68 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x103412fc0, 0x1400027f110})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x10345ffa8?, 0x140000ba460}, {0x0, 0x0}, {0x1400013b9f8?, 0x3, 0x800?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:18 +0xd0
+todo-app/app/controllers.index({0x10345ffa8, 0x140000ba460}, 0x10acd8e3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:23 +0xb8
+net/http.HandlerFunc.ServeHTTP(0x140002a0ad8?, {0x10345ffa8?, 0x140000ba460?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x10345ffa8, 0x140000ba460}, 0x14000240500)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x1400027f050?}, {0x10345ffa8, 0x140000ba460}, 0x14000240500)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x1400022c460, {0x103460460, 0x1400011d530})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/30 23:55:16 server.go:3230: http: panic serving [::1]:55686: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 69 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x103412fc0, 0x1400027f710})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x10345ffa8?, 0x14000248700}, {0x0, 0x0}, {0x1400013b9f8?, 0x3, 0x800?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:18 +0xd0
+todo-app/app/controllers.index({0x10345ffa8, 0x14000248700}, 0x10acd8e3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:23 +0xb8
+net/http.HandlerFunc.ServeHTTP(0x140002a4ad8?, {0x10345ffa8?, 0x14000248700?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x10345ffa8, 0x14000248700}, 0x14000240600)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x1400027f1d0?}, {0x10345ffa8, 0x14000248700}, 0x14000240600)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x1400022c500, {0x103460460, 0x1400011d530})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/30 23:55:46 server.go:3230: http: panic serving [::1]:55688: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 72 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x103412fc0, 0x1400027fd10})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x10345ffa8?, 0x140002487e0}, {0x0, 0x0}, {0x1400013b9f8?, 0x3, 0x800?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:18 +0xd0
+todo-app/app/controllers.index({0x10345ffa8, 0x140002487e0}, 0x10acd8e3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:23 +0xb8
+net/http.HandlerFunc.ServeHTTP(0x140002a4ad8?, {0x10345ffa8?, 0x140002487e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x10345ffa8, 0x140002487e0}, 0x14000240700)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x1400027f7d0?}, {0x10345ffa8, 0x140002487e0}, 0x14000240700)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x1400022c5a0, {0x103460460, 0x1400011d530})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/30 23:56:46 server.go:3230: http: panic serving [::1]:55696: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 75 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x103412fc0, 0x140001a7ce0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x10345ffa8?, 0x140001aa0e0}, {0x0, 0x0}, {0x1400013f9f8?, 0x3, 0x800?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:18 +0xd0
+todo-app/app/controllers.index({0x10345ffa8, 0x140001aa0e0}, 0x10acd8f3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:23 +0xb8
+net/http.HandlerFunc.ServeHTTP(0x140002a0ad8?, {0x10345ffa8?, 0x140001aa0e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x10345ffa8, 0x140001aa0e0}, 0x14000240800)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x1400027fe30?}, {0x10345ffa8, 0x140001aa0e0}, 0x14000240800)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x1400022c640, {0x103460460, 0x1400011d530})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 00:00:32 server.go:3230: http: panic serving [::1]:55710: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1013b2fc0, 0x14000200090})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x1013fffa8?, 0x140000ba000}, {0x0, 0x0}, {0x140001339f8?, 0x3, 0x800?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:18 +0xd0
+todo-app/app/controllers.index({0x1013fffa8, 0x140000ba000}, 0x126478f3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:23 +0xb8
+net/http.HandlerFunc.ServeHTTP(0x14000133ad8?, {0x1013fffa8?, 0x140000ba000?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1013fffa8, 0x140000ba000}, 0x1400009c000)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000094030?}, {0x1013fffa8, 0x140000ba000}, 0x1400009c000)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140001314a0, {0x101400460, 0x14000115530})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 00:00:33 server.go:3230: http: panic serving [::1]:55711: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 21 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1013b2fc0, 0x140002005d0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x1013fffa8?, 0x14000234000}, {0x0, 0x0}, {0x140001339f8?, 0x3, 0x800?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:18 +0xd0
+todo-app/app/controllers.index({0x1013fffa8, 0x14000234000}, 0x126478e3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:23 +0xb8
+net/http.HandlerFunc.ServeHTTP(0x14000061ad8?, {0x1013fffa8?, 0x14000234000?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1013fffa8, 0x14000234000}, 0x14000182100)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000115680?}, {0x1013fffa8, 0x14000234000}, 0x14000182100)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x14000131540, {0x101400460, 0x14000115530})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 00:00:33 server.go:3230: http: panic serving [::1]:55712: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 22 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1013b2fc0, 0x14000200ba0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x1013fffa8?, 0x140002340e0}, {0x0, 0x0}, {0x140001339f8?, 0x3, 0x800?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:18 +0xd0
+todo-app/app/controllers.index({0x1013fffa8, 0x140002340e0}, 0x126478f3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:23 +0xb8
+net/http.HandlerFunc.ServeHTTP(0x1400019cad8?, {0x1013fffa8?, 0x140002340e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1013fffa8, 0x140002340e0}, 0x14000182200)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000115770?}, {0x1013fffa8, 0x140002340e0}, 0x14000182200)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140001315e0, {0x101400460, 0x14000115530})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 00:00:33 server.go:3230: http: panic serving [::1]:55713: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 36 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1013b2fc0, 0x14000094b10})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x1013fffa8?, 0x140000ba0e0}, {0x0, 0x0}, {0x140001359f8?, 0x3, 0x800?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:18 +0xd0
+todo-app/app/controllers.index({0x1013fffa8, 0x140000ba0e0}, 0x126478f3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:23 +0xb8
+net/http.HandlerFunc.ServeHTTP(0x1400005dad8?, {0x1013fffa8?, 0x140000ba0e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1013fffa8, 0x140000ba0e0}, 0x1400009c100)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x140000945d0?}, {0x1013fffa8, 0x140000ba0e0}, 0x1400009c100)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140000d6000, {0x101400460, 0x14000115530})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 00:00:34 server.go:3230: http: panic serving [::1]:55714: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 9 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1013b2fc0, 0x14000200db0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x1013fffa8?, 0x140000ba1c0}, {0x0, 0x0}, {0x140001379f8?, 0x3, 0x800?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:18 +0xd0
+todo-app/app/controllers.index({0x1013fffa8, 0x140000ba1c0}, 0x126478f3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:23 +0xb8
+net/http.HandlerFunc.ServeHTTP(0x14000137ad8?, {0x1013fffa8?, 0x140000ba1c0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1013fffa8, 0x140000ba1c0}, 0x14000182300)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000094b70?}, {0x1013fffa8, 0x140000ba1c0}, 0x14000182300)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x1400025e000, {0x101400460, 0x14000115530})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 00:00:34 server.go:3230: http: panic serving [::1]:55715: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 10 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1013b2fc0, 0x140002012f0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x1013fffa8?, 0x140002341c0}, {0x0, 0x0}, {0x140001379f8?, 0x3, 0x800?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:18 +0xd0
+todo-app/app/controllers.index({0x1013fffa8, 0x140002341c0}, 0x126478e3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:23 +0xb8
+net/http.HandlerFunc.ServeHTTP(0x1400019cad8?, {0x1013fffa8?, 0x140002341c0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1013fffa8, 0x140002341c0}, 0x14000260000)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000200cc0?}, {0x1013fffa8, 0x140002341c0}, 0x14000260000)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x1400025e0a0, {0x101400460, 0x14000115530})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 00:00:34 server.go:3230: http: panic serving [::1]:55716: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 41 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1013b2fc0, 0x14000095590})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x1013fffa8?, 0x140000ba2a0}, {0x0, 0x0}, {0x140001359f8?, 0x3, 0x800?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:18 +0xd0
+todo-app/app/controllers.index({0x1013fffa8, 0x140000ba2a0}, 0x126478e3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:23 +0xb8
+net/http.HandlerFunc.ServeHTTP(0x1400005ead8?, {0x1013fffa8?, 0x140000ba2a0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1013fffa8, 0x140000ba2a0}, 0x1400009c300)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000095050?}, {0x1013fffa8, 0x140000ba2a0}, 0x1400009c300)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140000d60a0, {0x101400460, 0x14000115530})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 00:00:37 server.go:3230: http: panic serving [::1]:55717: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 44 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1013b2fc0, 0x14000095bc0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x1013fffa8?, 0x140000ba380}, {0x0, 0x0}, {0x140001379f8?, 0x3, 0x800?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:18 +0xd0
+todo-app/app/controllers.index({0x1013fffa8, 0x140000ba380}, 0x126478e3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:23 +0xb8
+net/http.HandlerFunc.ServeHTTP(0x14000137ad8?, {0x1013fffa8?, 0x140000ba380?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1013fffa8, 0x140000ba380}, 0x14000182500)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000201350?}, {0x1013fffa8, 0x140000ba380}, 0x14000182500)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140000d6140, {0x101400460, 0x14000115530})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 00:00:37 server.go:3230: http: panic serving [::1]:55718: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 45 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1013b2fc0, 0x14000115fb0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x1013fffa8?, 0x140001a41c0}, {0x0, 0x0}, {0x140001399f8?, 0x3, 0x800?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:18 +0xd0
+todo-app/app/controllers.index({0x1013fffa8, 0x140001a41c0}, 0x126478f3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:23 +0xb8
+net/http.HandlerFunc.ServeHTTP(0x1400005ead8?, {0x1013fffa8?, 0x140001a41c0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1013fffa8, 0x140001a41c0}, 0x1400009c500)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x140000956b0?}, {0x1013fffa8, 0x140001a41c0}, 0x1400009c500)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140000d61e0, {0x101400460, 0x14000115530})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 00:00:37 server.go:3230: http: panic serving [::1]:55719: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 48 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1013b2fc0, 0x140003101e0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x1013fffa8?, 0x140000ba460}, {0x0, 0x0}, {0x140001379f8?, 0x3, 0x800?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:18 +0xd0
+todo-app/app/controllers.index({0x1013fffa8, 0x140000ba460}, 0x126478f3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:23 +0xb8
+net/http.HandlerFunc.ServeHTTP(0x1400005fad8?, {0x1013fffa8?, 0x140000ba460?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1013fffa8, 0x140000ba460}, 0x1400009c600)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000095c80?}, {0x1013fffa8, 0x140000ba460}, 0x1400009c600)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140000d6280, {0x101400460, 0x14000115530})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 00:00:38 server.go:3230: http: panic serving [::1]:55720: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 27 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1013b2fc0, 0x140003107e0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x1013fffa8?, 0x140000ba540}, {0x0, 0x0}, {0x140001379f8?, 0x3, 0x800?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:18 +0xd0
+todo-app/app/controllers.index({0x1013fffa8, 0x140000ba540}, 0x126478f3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:23 +0xb8
+net/http.HandlerFunc.ServeHTTP(0x1400005ead8?, {0x1013fffa8?, 0x140000ba540?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1013fffa8, 0x140000ba540}, 0x14000182600)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x140001c8090?}, {0x1013fffa8, 0x140000ba540}, 0x14000182600)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x14000131680, {0x101400460, 0x14000115530})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 00:00:43 server.go:3230: http: panic serving [::1]:55721: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 51 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1013b2fc0, 0x14000310d50})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x1013fffa8?, 0x140000ba620}, {0x0, 0x0}, {0x140001379f8?, 0x3, 0x800?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:18 +0xd0
+todo-app/app/controllers.index({0x1013fffa8, 0x140000ba620}, 0x126478e3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:23 +0xb8
+net/http.HandlerFunc.ServeHTTP(0x1400005fad8?, {0x1013fffa8?, 0x140000ba620?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1013fffa8, 0x140000ba620}, 0x1400009c700)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x140003102a0?}, {0x1013fffa8, 0x140000ba620}, 0x1400009c700)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140000d6320, {0x101400460, 0x14000115530})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 00:00:43 server.go:3230: http: panic serving [::1]:55722: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 28 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1013b2fc0, 0x140003112f0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x1013fffa8?, 0x140000ba700}, {0x0, 0x0}, {0x140001379f8?, 0x3, 0x800?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:18 +0xd0
+todo-app/app/controllers.index({0x1013fffa8, 0x140000ba700}, 0x126478f3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:23 +0xb8
+net/http.HandlerFunc.ServeHTTP(0x1400005dad8?, {0x1013fffa8?, 0x140000ba700?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1013fffa8, 0x140000ba700}, 0x14000182700)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x140001c8150?}, {0x1013fffa8, 0x140000ba700}, 0x14000182700)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x14000131720, {0x101400460, 0x14000115530})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 00:00:43 server.go:3230: http: panic serving [::1]:55723: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 14 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1013b2fc0, 0x14000201f80})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x1013fffa8?, 0x14000234380}, {0x0, 0x0}, {0x140001339f8?, 0x3, 0x800?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:18 +0xd0
+todo-app/app/controllers.index({0x1013fffa8, 0x14000234380}, 0x126478f3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:23 +0xb8
+net/http.HandlerFunc.ServeHTTP(0x1400019cad8?, {0x1013fffa8?, 0x14000234380?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1013fffa8, 0x14000234380}, 0x14000260300)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000201a40?}, {0x1013fffa8, 0x14000234380}, 0x14000260300)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x1400025e320, {0x101400460, 0x14000115530})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 00:01:13 server.go:3230: http: panic serving [::1]:55726: open app/views/templates/private_navbar.html: no such file or directory
+goroutine 66 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1013b2fc0, 0x140002bc660})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+html/template.Must(...)
+	/usr/local/go/src/html/template/template.go:368
+todo-app/app/controllers.generateHTML({0x1013fffa8?, 0x14000234460}, {0x0, 0x0}, {0x140001339f8?, 0x3, 0x800?})
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:18 +0xd0
+todo-app/app/controllers.index({0x1013fffa8, 0x14000234460}, 0x126478f3b?)
+	/Users/hy_mac/go/src/todo-app/app/controllers/route_main.go:23 +0xb8
+net/http.HandlerFunc.ServeHTTP(0x1400019cad8?, {0x1013fffa8?, 0x14000234460?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1013fffa8, 0x14000234460}, 0x14000260400)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x140002bc060?}, {0x1013fffa8, 0x14000234460}, 0x14000260400)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x1400025e3c0, {0x101400460, 0x14000115530})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:05:52 server.go:3230: http: panic serving [::1]:49258: runtime error: index out of range [2] with length 0
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x10134ca40, 0x140000182d0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x101370568, 0x14000202380}, 0x14000226300)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x14000145ad8?, {0x101370568?, 0x14000202380?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x101370568, 0x14000202380}, 0x14000226300)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000115680?}, {0x101370568, 0x14000202380}, 0x14000226300)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x14000131540, {0x101370a20, 0x14000115590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:05:52 server.go:3230: http: panic serving [::1]:49259: runtime error: index out of range [2] with length 0
+goroutine 26 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x10134ca40, 0x1400012e480})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x101370568, 0x1400019e700}, 0x14000182700)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x14000061ad8?, {0x101370568?, 0x1400019e700?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x101370568, 0x1400019e700}, 0x14000182700)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x140001aa660?}, {0x101370568, 0x1400019e700}, 0x14000182700)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x14000131720, {0x101370a20, 0x14000115590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:05:52 server.go:3230: http: panic serving [::1]:49261: runtime error: index out of range [2] with length 0
+goroutine 59 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x10134ca40, 0x140000c8510})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x101370568, 0x140000ce380}, 0x140000c2600)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x1400005dad8?, {0x101370568?, 0x140000ce380?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x101370568, 0x140000ce380}, 0x140000c2600)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x140002829f0?}, {0x101370568, 0x140000ce380}, 0x140000c2600)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140000b2460, {0x101370a20, 0x14000115590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:05:53 server.go:3230: http: panic serving [::1]:49262: runtime error: index out of range [2] with length 0
+goroutine 67 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x10134ca40, 0x14000018330})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x101370568, 0x14000202460}, 0x140000c2700)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x1400005dad8?, {0x101370568?, 0x14000202460?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x101370568, 0x14000202460}, 0x140000c2700)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000282ae0?}, {0x101370568, 0x14000202460}, 0x140000c2700)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x1400021a3c0, {0x101370a20, 0x14000115590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:05:58 server.go:3230: http: panic serving [::1]:49263: runtime error: index out of range [2] with length 0
+goroutine 68 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x10134ca40, 0x14000018390})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x101370568, 0x14000202540}, 0x14000226400)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x14000062ad8?, {0x101370568?, 0x14000202540?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x101370568, 0x14000202540}, 0x14000226400)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000231110?}, {0x101370568, 0x14000202540}, 0x14000226400)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x1400021a460, {0x101370a20, 0x14000115590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:05:58 server.go:3230: http: panic serving [::1]:49264: runtime error: index out of range [2] with length 0
+goroutine 71 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x10134ca40, 0x140000c8570})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x101370568, 0x140000ce460}, 0x14000226500)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x14000062ad8?, {0x101370568?, 0x140000ce460?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x101370568, 0x140000ce460}, 0x14000226500)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000231380?}, {0x101370568, 0x140000ce460}, 0x14000226500)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x1400021a500, {0x101370a20, 0x14000115590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:06:28 server.go:3230: http: panic serving [::1]:49265: runtime error: index out of range [2] with length 0
+goroutine 62 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x10134ca40, 0x1400012e4e0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x101370568, 0x1400019e7e0}, 0x140000c2900)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x1400005ead8?, {0x101370568?, 0x1400019e7e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x101370568, 0x1400019e7e0}, 0x140000c2900)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000282cf0?}, {0x101370568, 0x1400019e7e0}, 0x140000c2900)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140000b2500, {0x101370a20, 0x14000115590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:06:28 server.go:3230: http: panic serving [::1]:49266: runtime error: index out of range [2] with length 0
+goroutine 63 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x10134ca40, 0x1400012e540})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x101370568, 0x1400019e8c0}, 0x140000c2800)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x14000062ad8?, {0x101370568?, 0x1400019e8c0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x101370568, 0x1400019e8c0}, 0x140000c2800)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000282c90?}, {0x101370568, 0x1400019e8c0}, 0x140000c2800)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140000b25a0, {0x101370a20, 0x14000115590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:06:28 server.go:3230: http: panic serving [::1]:49270: runtime error: index out of range [2] with length 0
+goroutine 64 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x10134ca40, 0x1400012e5a0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x101370568, 0x1400019e9a0}, 0x14000182f00)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x14000062ad8?, {0x101370568?, 0x1400019e9a0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x101370568, 0x1400019e9a0}, 0x14000182f00)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x140001c2630?}, {0x101370568, 0x1400019e9a0}, 0x14000182f00)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140000b2640, {0x101370a20, 0x14000115590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:07:28 server.go:3230: http: panic serving [::1]:49276: runtime error: index out of range [2] with length 0
+goroutine 42 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x10134ca40, 0x140000c85d0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x101370568, 0x140000ce540}, 0x14000183000)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x1400005fad8?, {0x101370568?, 0x140000ce540?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x101370568, 0x140000ce540}, 0x14000183000)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x140001c2780?}, {0x101370568, 0x140000ce540}, 0x14000183000)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x14000131a40, {0x101370a20, 0x14000115590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:12:28 server.go:3230: http: panic serving [::1]:49304: runtime error: index out of range [2] with length 0
+goroutine 98 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x10134ca40, 0x1400012e600})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x101370568, 0x1400019ea80}, 0x14000394100)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x1400039aad8?, {0x101370568?, 0x1400019ea80?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x101370568, 0x1400019ea80}, 0x14000394100)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000384180?}, {0x101370568, 0x1400019ea80}, 0x14000394100)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x14000388000, {0x101370a20, 0x14000115590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:13:16 server.go:3230: http: panic serving [::1]:49309: runtime error: index out of range [2] with length 0
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x101014a40, 0x14000208168})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x101038568, 0x1400025e1c0}, 0x140000c0000)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x1400014dad8?, {0x101038568?, 0x1400025e1c0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x101038568, 0x1400025e1c0}, 0x140000c0000)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x1400011d680?}, {0x101038568, 0x1400025e1c0}, 0x140000c0000)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x14000139540, {0x101038a20, 0x1400011d590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:13:16 server.go:3230: http: panic serving [::1]:49310: runtime error: index out of range [2] with length 0
+goroutine 22 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x101014a40, 0x140002081c8})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x101038568, 0x1400025e2a0}, 0x1400018a400)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x14000061ad8?, {0x101038568?, 0x1400025e2a0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x101038568, 0x1400025e2a0}, 0x1400018a400)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x1400011d920?}, {0x101038568, 0x1400025e2a0}, 0x1400018a400)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140001395e0, {0x101038a20, 0x1400011d590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:13:16 server.go:3230: http: panic serving [::1]:49311: runtime error: index out of range [2] with length 0
+goroutine 41 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x101014a40, 0x14000208228})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x101038568, 0x1400025e380}, 0x14000250200)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x14000061ad8?, {0x101038568?, 0x1400025e380?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x101038568, 0x1400025e380}, 0x14000250200)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000203b00?}, {0x101038568, 0x1400025e380}, 0x14000250200)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x14000214140, {0x101038a20, 0x1400011d590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:13:17 server.go:3230: http: panic serving [::1]:49312: runtime error: index out of range [2] with length 0
+goroutine 43 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x101014a40, 0x14000208288})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x101038568, 0x1400025e460}, 0x14000250300)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x14000061ad8?, {0x101038568?, 0x1400025e460?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x101038568, 0x1400025e460}, 0x14000250300)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000203c50?}, {0x101038568, 0x1400025e460}, 0x14000250300)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140002141e0, {0x101038a20, 0x1400011d590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:13:22 server.go:3230: http: panic serving [::1]:49313: runtime error: index out of range [2] with length 0
+goroutine 45 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x101014a40, 0x140001362d0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x101038568, 0x140001a61c0}, 0x14000250400)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x14000061ad8?, {0x101038568?, 0x140001a61c0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x101038568, 0x140001a61c0}, 0x14000250400)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000203da0?}, {0x101038568, 0x140001a61c0}, 0x14000250400)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x14000214280, {0x101038a20, 0x1400011d590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:13:22 server.go:3230: http: panic serving [::1]:49314: runtime error: index out of range [2] with length 0
+goroutine 28 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x101014a40, 0x14000136330})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x101038568, 0x140001a62a0}, 0x1400018a600)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x14000061ad8?, {0x101038568?, 0x140001a62a0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x101038568, 0x140001a62a0}, 0x1400018a600)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x140001c63c0?}, {0x101038568, 0x140001a62a0}, 0x1400018a600)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x14000139680, {0x101038a20, 0x1400011d590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:13:52 server.go:3230: http: panic serving [::1]:49315: runtime error: index out of range [2] with length 0
+goroutine 30 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x101014a40, 0x140002082e8})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x101038568, 0x1400025e540}, 0x1400018a700)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x14000061ad8?, {0x101038568?, 0x1400025e540?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x101038568, 0x1400025e540}, 0x1400018a700)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x140001c6510?}, {0x101038568, 0x1400025e540}, 0x1400018a700)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x14000139720, {0x101038a20, 0x1400011d590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:13:52 server.go:3230: http: panic serving [::1]:49317: runtime error: index out of range [2] with length 0
+goroutine 47 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x101014a40, 0x14000208348})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x101038568, 0x1400025e620}, 0x14000250500)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x14000061ad8?, {0x101038568?, 0x1400025e620?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x101038568, 0x1400025e620}, 0x14000250500)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000203ef0?}, {0x101038568, 0x1400025e620}, 0x14000250500)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x14000214320, {0x101038a20, 0x1400011d590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:14:52 server.go:3230: http: panic serving [::1]:49321: runtime error: index out of range [2] with length 0
+goroutine 49 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x101014a40, 0x140002083a8})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x101038568, 0x1400025e700}, 0x14000250600)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x14000061ad8?, {0x101038568?, 0x1400025e700?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x101038568, 0x1400025e700}, 0x14000250600)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x140002e8060?}, {0x101038568, 0x1400025e700}, 0x14000250600)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140002143c0, {0x101038a20, 0x1400011d590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:19:21 server.go:3230: http: panic serving [::1]:49336: runtime error: index out of range [2] with length 0
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x104db8a40, 0x14000092120})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x104ddc568, 0x140000ae0e0}, 0x140000d6000)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x1400014dad8?, {0x104ddc568?, 0x140000ae0e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x104ddc568, 0x140000ae0e0}, 0x140000d6000)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x1400011d680?}, {0x104ddc568, 0x140000ae0e0}, 0x140000d6000)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140001395e0, {0x104ddca20, 0x1400011d590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:19:21 server.go:3230: http: panic serving [::1]:49337: runtime error: index out of range [2] with length 0
+goroutine 34 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x104db8a40, 0x14000092180})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x104ddc568, 0x140000ae1c0}, 0x14000228000)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x1400021aad8?, {0x104ddc568?, 0x140000ae1c0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x104ddc568, 0x140000ae1c0}, 0x14000228000)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000204090?}, {0x104ddc568, 0x140000ae1c0}, 0x14000228000)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x14000208000, {0x104ddca20, 0x1400011d590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:19:21 server.go:3230: http: panic serving [::1]:49338: runtime error: index out of range [2] with length 0
+goroutine 56 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x104db8a40, 0x140000921e0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x104ddc568, 0x140000ae2a0}, 0x140000d6100)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x1400021aad8?, {0x104ddc568?, 0x140000ae2a0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x104ddc568, 0x140000ae2a0}, 0x140000d6100)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000099950?}, {0x104ddc568, 0x140000ae2a0}, 0x140000d6100)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140000ce140, {0x104ddca20, 0x1400011d590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:19:22 server.go:3230: http: panic serving [::1]:49339: runtime error: index out of range [2] with length 0
+goroutine 58 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x104db8a40, 0x14000092240})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x104ddc568, 0x140000ae380}, 0x140000d6200)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x1400021aad8?, {0x104ddc568?, 0x140000ae380?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x104ddc568, 0x140000ae380}, 0x140000d6200)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000099aa0?}, {0x104ddc568, 0x140000ae380}, 0x140000d6200)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140000ce1e0, {0x104ddca20, 0x1400011d590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:19:27 server.go:3230: http: panic serving [::1]:49340: runtime error: index out of range [2] with length 0
+goroutine 37 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x104db8a40, 0x1400022a108})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x104ddc568, 0x1400023e0e0}, 0x140000d6300)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x1400005dad8?, {0x104ddc568?, 0x1400023e0e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x104ddc568, 0x1400023e0e0}, 0x140000d6300)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000099b00?}, {0x104ddc568, 0x1400023e0e0}, 0x140000d6300)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140002080a0, {0x104ddca20, 0x1400011d590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:19:27 server.go:3230: http: panic serving [::1]:49341: runtime error: index out of range [2] with length 0
+goroutine 39 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x104db8a40, 0x140001362a0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x104ddc568, 0x140001a61c0}, 0x14000228200)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x1400005dad8?, {0x104ddc568?, 0x140001a61c0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x104ddc568, 0x140001a61c0}, 0x14000228200)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000204840?}, {0x104ddc568, 0x140001a61c0}, 0x14000228200)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x14000208140, {0x104ddca20, 0x1400011d590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:19:57 server.go:3230: http: panic serving [::1]:49343: runtime error: index out of range [2] with length 0
+goroutine 60 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x104db8a40, 0x140000922a0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x104ddc568, 0x140000ae460}, 0x140000d6400)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x1400021aad8?, {0x104ddc568?, 0x140000ae460?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x104ddc568, 0x140000ae460}, 0x140000d6400)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000099c50?}, {0x104ddc568, 0x140000ae460}, 0x140000d6400)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140000ce280, {0x104ddca20, 0x1400011d590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:22:03 server.go:3230: http: panic serving [::1]:49419: runtime error: index out of range [2] with length 0
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1008cca40, 0x14000018150})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x1008f0568, 0x1400023e000}, 0x14000184200)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x14000145ad8?, {0x1008f0568?, 0x1400023e000?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1008f0568, 0x1400023e000}, 0x14000184200)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000094030?}, {0x1008f0568, 0x1400023e000}, 0x14000184200)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x14000131540, {0x1008f0a20, 0x14000115590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:22:03 server.go:3230: http: panic serving [::1]:49420: runtime error: index out of range [2] with length 0
+goroutine 21 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1008cca40, 0x140000181b0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x1008f0568, 0x1400023e0e0}, 0x14000184100)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x14000061ad8?, {0x1008f0568?, 0x1400023e0e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1008f0568, 0x1400023e0e0}, 0x14000184100)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x140001156e0?}, {0x1008f0568, 0x1400023e0e0}, 0x14000184100)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140001315e0, {0x1008f0a20, 0x14000115590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:22:03 server.go:3230: http: panic serving [::1]:49421: runtime error: index out of range [2] with length 0
+goroutine 26 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1008cca40, 0x1400012e270})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x1008f0568, 0x1400019a0e0}, 0x14000184300)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x140001aead8?, {0x1008f0568?, 0x1400019a0e0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1008f0568, 0x1400019a0e0}, 0x14000184300)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x140001a6f30?}, {0x1008f0568, 0x1400019a0e0}, 0x14000184300)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140001317c0, {0x1008f0a20, 0x14000115590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:22:04 server.go:3230: http: panic serving [::1]:49422: runtime error: index out of range [2] with length 0
+goroutine 28 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1008cca40, 0x1400012e2d0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x1008f0568, 0x1400019a1c0}, 0x14000184400)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x140001aead8?, {0x1008f0568?, 0x1400019a1c0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1008f0568, 0x1400019a1c0}, 0x14000184400)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x140001a7080?}, {0x1008f0568, 0x1400019a1c0}, 0x14000184400)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x14000131860, {0x1008f0a20, 0x14000115590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:22:09 server.go:3230: http: panic serving [::1]:49423: runtime error: index out of range [2] with length 0
+goroutine 9 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1008cca40, 0x1400012e330})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x1008f0568, 0x1400019a2a0}, 0x1400023c100)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x14000061ad8?, {0x1008f0568?, 0x1400019a2a0?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1008f0568, 0x1400019a2a0}, 0x1400023c100)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x14000201530?}, {0x1008f0568, 0x1400019a2a0}, 0x1400023c100)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x1400020c140, {0x1008f0a20, 0x14000115590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:22:09 server.go:3230: http: panic serving [::1]:49424: runtime error: index out of range [2] with length 0
+goroutine 30 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1008cca40, 0x1400012e390})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x1008f0568, 0x1400019a380}, 0x14000184500)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x140001aead8?, {0x1008f0568?, 0x1400019a380?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1008f0568, 0x1400019a380}, 0x14000184500)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x140001a71d0?}, {0x1008f0568, 0x1400019a380}, 0x14000184500)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x14000131900, {0x1008f0a20, 0x14000115590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:22:09 server.go:3230: http: panic serving [::1]:49425: runtime error: index out of range [2] with length 0
+goroutine 33 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1008cca40, 0x1400012e3f0})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x1008f0568, 0x1400019a460}, 0x14000184600)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x140001aead8?, {0x1008f0568?, 0x1400019a460?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1008f0568, 0x1400019a460}, 0x14000184600)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x140001a7440?}, {0x1008f0568, 0x1400019a460}, 0x14000184600)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x140001319a0, {0x1008f0a20, 0x14000115590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
+2022/12/31 14:22:39 server.go:3230: http: panic serving [::1]:49430: runtime error: index out of range [2] with length 0
+goroutine 51 [running]:
+net/http.(*conn).serve.func1()
+	/usr/local/go/src/net/http/server.go:1850 +0xb0
+panic({0x1008cca40, 0x1400012e450})
+	/usr/local/go/src/runtime/panic.go:890 +0x258
+todo-app/app/controllers.parseURL.func1({0x1008f0568, 0x1400019a540}, 0x14000184700)
+	/Users/hy_mac/go/src/todo-app/app/controllers/server.go:51 +0xfc
+net/http.HandlerFunc.ServeHTTP(0x140001aead8?, {0x1008f0568?, 0x1400019a540?}, 0x0?)
+	/usr/local/go/src/net/http/server.go:2109 +0x38
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x1008f0568, 0x1400019a540}, 0x14000184700)
+	/usr/local/go/src/net/http/server.go:2487 +0x140
+net/http.serverHandler.ServeHTTP({0x140001a7590?}, {0x1008f0568, 0x1400019a540}, 0x14000184700)
+	/usr/local/go/src/net/http/server.go:2947 +0x2c4
+net/http.(*conn).serve(0x14000131a40, {0x1008f0a20, 0x14000115590})
+	/usr/local/go/src/net/http/server.go:1991 +0x560
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3102 +0x444
